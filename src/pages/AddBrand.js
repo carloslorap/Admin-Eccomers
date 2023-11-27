@@ -56,7 +56,7 @@ const AddBrand = () => {
   const formik = useFormik({
     enableReinitialize: true,
     initialValues: {
-      title: BrandName || "",
+      title: BrandName || "", 
     },
     validationSchema: schema,
     onSubmit: (values) => {

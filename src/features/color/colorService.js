@@ -13,7 +13,7 @@ export const config = {
     Accept: "application/json",
   },
 };
-
+ 
 const getColors = async () => {
   const response = await axios.get(`${base_url}color/`);
 

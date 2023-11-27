@@ -39,7 +39,7 @@ const ColorList = () => {
     },
   ];
   const dispatch = useDispatch();
-  useEffect(() => {
+  useEffect(() => { 
     dispatch(getColors());
   }, []);
   const colorState = useSelector((state) => state.color.colors);

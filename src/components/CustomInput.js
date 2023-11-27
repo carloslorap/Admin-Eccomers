@@ -11,7 +11,7 @@ const CustomInput = (props) => {
         id={i_id}
         name= {name}
         value={val}
-        onChange={onCh}
+        onChange={onCh} 
         onBlur={onBl}
       />
       <label for="">{label}</label>

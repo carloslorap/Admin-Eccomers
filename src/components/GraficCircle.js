@@ -14,7 +14,7 @@ const GraficCircle = () => {
         {
           type: 'Phone',
           value: 28,
-        },
+        }, 
         {
           type: 'LG',
           value: 15,

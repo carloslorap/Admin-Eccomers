@@ -16,7 +16,7 @@ export const createCoupon = createAsyncThunk(
   async (couponData, thunkAPI) => {
     try {
       return await couponService.createCoupon(couponData);
-    } catch (error) {
+    } catch (error) { 
       return thunkAPI.rejectWithValue(error);
     }
   }

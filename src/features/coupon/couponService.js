@@ -15,7 +15,7 @@ export const config = {
 const getCoupons = async () => {
   const response = await axios.get(`${base_url}coupon/`, config);
 
-  return response.data;
+  return response.data; 
 };
 
 const createCoupon = async (coupon) => {

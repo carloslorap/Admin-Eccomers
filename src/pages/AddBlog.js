@@ -150,7 +150,7 @@ const AddBlog = () => {
               return <option value={i.title}>{i.title}</option>;
             })}
           </select>
-          <div className="error">
+          <div className="error"> 
             {formik.touched.category && formik.errors.category ? (
               <div>{formik.errors.category}</div>
             ) : null}

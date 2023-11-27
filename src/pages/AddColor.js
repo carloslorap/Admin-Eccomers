@@ -35,7 +35,7 @@ const AddColor = () => {
      
     }
     if (isError) {
-      toast.error("Something Went Wrong");
+      toast.error("Something Went Wrong"); 
     }
   }, [isSuccess, isError, isLoading, createdColor, updateAColor]);
 

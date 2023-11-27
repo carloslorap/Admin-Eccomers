@@ -119,7 +119,7 @@ const AddCoupon = () => {
             type="date"
             label="Enter Brand"
             name="expiry"
-            id="expiry"
+            id="expiry" 
             onCh={formik.handleChange("expiry")}
             val={formik.values.expiry}
           />

@@ -15,7 +15,7 @@ import {
 const AddBlogCat = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const location = useLocation();
+  const location = useLocation(); 
   const getBCatId = location.pathname.split("/")[3];
   const newBlogCategory = useSelector((state) => state.bCategory);
 

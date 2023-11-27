@@ -20,7 +20,7 @@ const BlogCatList = () => {
     setOpen(false);
   };
 
-
+ 
     const columns = [
         {
           title: "Nro",

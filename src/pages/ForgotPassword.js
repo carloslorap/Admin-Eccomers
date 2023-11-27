@@ -26,7 +26,7 @@ const ForgotPassword = () => {
             Send Link
           </button>
         </form>
-      </div>
+      </div> 
     </div>
   );
 };

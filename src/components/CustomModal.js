@@ -13,7 +13,7 @@ const CustomModal = (props) => {
       
     >
       <p>{title}</p>
-    </Modal>
+    </Modal> 
   );
 };
 

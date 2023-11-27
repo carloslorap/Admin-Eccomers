@@ -12,7 +12,7 @@ export const config = {
     }`,
     Accept: "application/json",
   },
-};
+}; 
 
 const getBlogCategories = async () => {
   const response = await axios.get(`${base_url}blogcategory/`); 

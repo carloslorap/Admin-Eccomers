@@ -20,7 +20,7 @@ const BrandList = () => {
   const hideModal = () => {
     setOpen(false);
   };
-
+ 
   const columns = [
     {
       title: "Nro",

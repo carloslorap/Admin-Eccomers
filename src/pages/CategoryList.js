@@ -20,7 +20,7 @@ const CategoryList = () => {
   };
 
   const columns = [
-    {
+    { 
       title: "Nro",
       dataIndex: "key",
     },

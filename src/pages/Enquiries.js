@@ -24,7 +24,7 @@ const Enquiries = () => {
       title: "Nro",
       dataIndex: "key",
     },
-    {
+    { 
       title: "Name",
       dataIndex: "name",
     },

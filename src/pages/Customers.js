@@ -26,7 +26,7 @@ const Customers = () => {
 
   
   const dispatch = useDispatch()
-  useEffect(()=>{
+  useEffect(()=>{ 
     dispatch(getUsers())
   },[])
   const customerstate =useSelector((state)=>state.customer.customers)

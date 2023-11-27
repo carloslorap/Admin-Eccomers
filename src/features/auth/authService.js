@@ -10,7 +10,7 @@ const config = {
   headers: {
     // Verifica si el usuario del localStorage tiene el token antes de usarlo
     Authorization: userFromLocalStorage
-      ? `Bearer ${userFromLocalStorage.token}`
+      ? `Bearer ${userFromLocalStorage.token}` 
       : "",
     Accept: "application/json",
   },

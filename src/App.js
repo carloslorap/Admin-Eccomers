@@ -19,7 +19,7 @@ import AddBlog from "./pages/AddBlog";
 import AddBlogCat from "./pages/AddBlogCat";
 import AddColor from "./pages/AddColor";
 import AddCat from "./pages/AddCat";
-import AddBrand from "./pages/AddBrand";
+import AddBrand from "./pages/AddBrand"; 
 import AddProduct from "./pages/AddProduct";
 import CouponList from "./pages/CouponList";
 import AddCoupon from "./pages/AddCoupon";

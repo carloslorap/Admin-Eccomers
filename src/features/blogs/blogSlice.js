@@ -13,7 +13,7 @@ export const createBlog = createAsyncThunk(
   async (blogData, thunkAPI) => {
     try {
       return await blogService.createBlog(blogData);
-    } catch (error) {
+    } catch (error) { 
       return thunkAPI.rejectWithValue(error);
     }
   }

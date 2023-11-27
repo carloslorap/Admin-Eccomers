@@ -11,7 +11,7 @@ export const config = {
     }`,
     Accept: "application/json",
   },
-};
+}; 
 const getBlogs = async () => {
   const response = await axios.get(`${base_url}blog/`);
 

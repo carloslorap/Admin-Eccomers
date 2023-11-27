@@ -15,7 +15,7 @@ const getTokenFromLocalStorage = localStorage.getItem("user")
 };
 
 const getAllBrands = async () => {
-  const response = await axios.get(`${base_url}brand/`);
+  const response = await axios.get(`${base_url}brand/`); 
 
   return response.data;
 };

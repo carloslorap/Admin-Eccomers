@@ -19,7 +19,7 @@ export const createColor= createAsyncThunk(
   async (colorData, thunkAPI) => {
     try {
       return await colorService.createColor(colorData);
-    } catch (error) {
+    } catch (error) { 
       return thunkAPI.rejectWithValue(error);
     }
   }

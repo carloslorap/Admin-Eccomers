@@ -15,7 +15,7 @@ const AddCat = () => {
   const newCategory = useSelector((state) => state.pCategory);
 
   const {isSuccess, isError, isLoading, createdCategory,updatedCategory,categoryName } = newCategory;
-  useEffect(() => {
+  useEffect(() => { 
     if (getpCatId !== undefined) {
       dispatch(getProductCategory(getpCatId));
       formik.values.title = categoryName;

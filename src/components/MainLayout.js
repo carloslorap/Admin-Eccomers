@@ -13,7 +13,7 @@ import { BiSolidCartAdd, BiListUl, BiSolidCategory } from "react-icons/bi";
 import { IoIosNotifications } from "react-icons/io";
 import { SiBrandfolder } from "react-icons/si";
 import { RiAddLine,RiCoupon2Fill } from "react-icons/ri";
-import { FaBlogger, FaClipboardList } from "react-icons/fa";
+import { FaBlogger, FaClipboardList } from "react-icons/fa"; 
 import { MdOutlineQuiz } from "react-icons/md";
 import { ImBlog } from "react-icons/im";
 import { Layout, Menu, Button, theme } from "antd";

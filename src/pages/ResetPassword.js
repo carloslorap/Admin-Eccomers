@@ -24,7 +24,7 @@ const ResetPassword = () => {
             type="submit"
           >
             Reset Password
-          </button>
+          </button> 
         </form>
       </div>
     </div>

@@ -44,7 +44,7 @@ const Login = () => {
       navigate("admin");
   
     } 
-  }, [user, isSuccess,navigate]);
+  }, [user, isSuccess,navigate]); 
   return (
     <>
   

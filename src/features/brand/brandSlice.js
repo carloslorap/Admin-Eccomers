@@ -124,7 +124,7 @@ export const brandSlice = createSlice({
       .addCase(updateBrand.rejected, (state, action) => {
         state.isLoading = false;
         state.isError = true;
-        state.isSuccess = false;
+        state.isSuccess = false; 
         state.message = action.error;
       })
       .addCase(deleteBrand.pending, (state) => {

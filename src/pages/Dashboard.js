@@ -23,7 +23,7 @@ const Dashboard = () => {
     {
       title: "Status",
       dataIndex: "staus",
-    },
+    }, 
   ];
   const data1 = [];
   for (let i = 0; i < 46; i++) {

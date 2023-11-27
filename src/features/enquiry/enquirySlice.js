@@ -16,7 +16,7 @@ export const deleteEnquiry = createAsyncThunk(
   async (id, thunkAPI) => {
     try {
       return await enquiryService.deleteEnquiry(id);
-    } catch (error) {
+    } catch (error) {  
       return thunkAPI.rejectWithValue(error);
     }
   }

@@ -19,7 +19,7 @@ const BlogList = () => {
   const hideModal = () => {
     setOpen(false);
   };
-
+ 
 
   const columns = [
     {

@@ -18,7 +18,7 @@ export const createCategory = createAsyncThunk(
       return await pCategoryService.createCategory(categoryData);
     } catch (error) {
       return thunkAPI.rejectWithValue(error);
-    }
+    } 
   }
 );
 

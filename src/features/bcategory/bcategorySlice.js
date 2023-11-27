@@ -12,7 +12,7 @@ export const getBlogCategories = createAsyncThunk(
   }
 );
 export const createBlogCategory = createAsyncThunk(
-  "blogCategory/create-categories",
+  "blogCategory/create-categories", 
   async (catData, thunkAPI) => {
     try {
       return await bCategoryService.createBlogCategory(catData);

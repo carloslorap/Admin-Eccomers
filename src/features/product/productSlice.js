@@ -18,7 +18,7 @@ export const createProducts = createAsyncThunk(
       return await productService.createProduct(productData);
     } catch (error) {
       return thunkAPI.rejectWithValue(error);
-    }
+    } 
   }
 );
 

@@ -22,7 +22,7 @@ const CouponList = () => {
 
   const columns = [
     {
-      title: "Nro",
+      title: "Nro", 
       dataIndex: "key",
     },
     {

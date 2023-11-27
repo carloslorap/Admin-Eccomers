@@ -16,7 +16,7 @@ export const getUsers = createAsyncThunk(
 );
 
 
-const initialState = {
+const initialState = { 
     customers:[],
     isError: false,
     isLoading: false,

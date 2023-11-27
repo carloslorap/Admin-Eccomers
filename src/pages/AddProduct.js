@@ -45,7 +45,7 @@ const AddProduct = () => {
     }
   }, [isSuccess, isError, isLoading, createProduct]);
 
-  const coloropt = [];
+  const coloropt = []; 
   colorState.forEach((i) => {
     coloropt.push({
       value: i._id,
@@ -134,7 +134,7 @@ const AddProduct = () => {
             theme="snow"
             name="description"
             onChange={formik.handleChange("description")}
-            onBlur={formik.handleBlur("description")}
+            onBlur={() => formik.handleBlur("description")}  
             value={formik.values.description}
           />
         </div>

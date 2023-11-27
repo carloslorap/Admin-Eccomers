@@ -25,7 +25,7 @@ const columns = [
   },
   {
     title: "Date",
-    dataIndex: "date",
+    dataIndex: "date", 
   },
   {
     title: "Action",

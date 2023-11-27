@@ -11,7 +11,7 @@ export const getOrders = createAsyncThunk(
     try {
       return await authService.getOrders();
     } catch (error) {
-      return thunkAPI.rejectWithValue(error);
+      return thunkAPI.rejectWithValue(error);  
     }
   }
 );
