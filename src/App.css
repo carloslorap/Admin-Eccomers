@@ -1,0 +1,109 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+.demo-logo-vertical {
+  height: 64px;
+  margin: 0;
+  background: #001529;
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-sider {
+  flex: 0 0 250px !important;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+}
+
+.ant-layout-sider-collapsed {
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+  width: 28px !important;
+}
+.sm-logo {
+  display: none;
+}
+.ant-layout-sider-collapsed .sm-logo {
+  display: block;
+}
+.ant-layout-sider-collapsed .lg-logo {
+  display: none;
+}
+main {
+  height: 85vh;
+  overflow-y: scroll;
+  background: transparent !important;
+}
+main::-webkit-scrollbar{
+  width: 0px;
+}
+.ant-layout-header h5{
+  line-height: 20px;
+  font-size: 14px;
+}
+.ant-layout-header p{
+  line-height: 20px;
+  font-size: 13px;
+}
+.ant-layout-header div .badge{
+  top: 16px;
+  right: -2px;
+}
+.green{
+  color: rgb(24, 187, 24);
+}
+.red{
+  color: red;
+}
+.quill{
+  background-color: white;
+}
+.ant-upload{
+  border-color: #1890ff !important;
+}
+h3{
+  font-size: 28px;
+
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+}
+.colors{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.colors-1{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.colors li{
+width: 25px;
+height: 25px;
+background-color: red;
+border-radius: 50%;
+}
+.colors-1 li{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 18px;
+  }
+  .titulo-color{
+
+    width: 65px;
+  }
